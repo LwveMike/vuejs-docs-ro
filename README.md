@@ -1,25 +1,24 @@
 # vuejs.org
 
-## Contributing
+## Contribuție
 
-This site is built with [VitePress](https://github.com/vuejs/vitepress) and depends on [@vue/theme](https://github.com/vuejs/vue-theme). Site content is written in Markdown format located in `src`. For simple edits, you can directly edit the file on GitHub and generate a Pull Request.
+Site-ul este făcut pe [VitePress](https://github.com/vuejs/vitepress) și depinde de [@vue/theme](https://github.com/vuejs/vue-theme). Conținutul este scris în format de Markdown care se află în `src`. Pentru schimbări mici, pute-ți edita direct fișierul pe GitHub, iar apoi să creați Pull Request.
 
-For local development, [pnpm](https://pnpm.io/) is preferred as package manager:
+Pentru development local, package managerul preferabil este [pnpm](https://pnpm.io/):
 
 ```bash
 pnpm i
 pnpm run dev
 ```
 
-This project requires Node.js to be `v14.0.0` or higher, because we use new JavaScript features in our code, such as optional chaining.
+Pentru acest proiect, este nevoie de Node.js `v14.0.0` sau mai nou, pentru că noi folosim feature-uri noi in cod, cum ar fi optional chaining.
 
+## Lucru cu conținutul
 
-## Working on the content
+- Uitați-vă la documentația din VitePress pentru suportul la [Markdown Extensions](https://vitepress.dev/guide/markdown) și la abilitatea de a [folosi sintaxa Vue în markdown](https://vitepress.dev/guide/using-vue).
 
-- See VitePress docs on supported [Markdown Extensions](https://vitepress.dev/guide/markdown) and the ability to [use Vue syntax inside markdown](https://vitepress.dev/guide/using-vue).
+- Uitați-vă la [Ghidul de scriere](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) pentru regulile și recomandările despre scris și menținere a conținutului documentației. 
 
-- See the [Writing Guide](https://github.com/vuejs/docs/blob/main/.github/contributing/writing-guide.md) for our rules and recommendations on writing and maintaining documentation content.
+## Lucru cu tema
 
-## Working on the theme
-
-If changes need to made for the theme, check out the [instructions for developing the theme alongside the docs](https://github.com/vuejs/vue-theme#developing-with-real-content).
+Dacă sunt nevoie de schimbări a temei, uitați-vă la [instrucțiunile de development al temei împreună cu documentația](https://github.com/vuejs/vue-theme#developing-with-real-content).
